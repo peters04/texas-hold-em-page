@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Site about best sport in the world Texas Hold'em"
+    />
+    <title>Poker</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700i|Montserrat:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+
+  </head>
+  <body>
+      <!-- wrapper -->
+    <div id="wrapper">
+        <!-- headaer -->
+        <header class="main-header">
+            <div class="header-container">
+                <h1 class="main-h"><a href="index.html">Texas Hold'em</a></h1>
+                
+                <!-- navbar -->
+                <button class="hamburger">
+                    <span class="hamburger__box">
+                        <span class="hamburger__inner"></span>
+                    </span>
+                </button>
+                <nav clas="nav--active">
+                    <ol>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="image-text">
+                <h1>Welcom</h1>
+                <a href="#about" class="btn">Read More</a>
+            </div>
+        </header>
+
+        <!-- main -->
+        <main>
+            <!-- about -->
+            <section id="about">
+                <div class="text-wrap">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iure doloremque error est corporis officiis blanditiis nulla delectus quod, assumenda quaerat deserunt nemo natus saepe fuga laudantium incidunt. Consequatur iure, optio error itaque enim iste ducimus necessitatibus non earum deleniti!</p>
+                    <a href="#" class="btn">See this awful website</a>
+                </div>
+            </section>
+
+            <!-- rules -->
+            <section class="rules">
+                <h2>Rules</h2>
+
+                <!-- cards -->
+                <section class="cards">
+                    
+                    <section class="card">
+
+                        <img src="images/card0.jpg" alt="cards bg image">
+                        <div class="card-overlayer">
+                            <div class="overlayer-text">
+                                <h3>Introduction</h3>
+                                <p><a href="#">Learning to Play Poker</a></p>
+                                <p><a href="#">Getting to Know the Game</a></p>
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class="card">
+
+                        <img src="images/card1.jpg" alt="cards bg image">
+                        <div class="card-overlayer">
+                            <div class="overlayer-text">
+                                <h3>Starting to play</h3>
+                                <p><a href="#">Texas Hold'em Rules</a></p>
+                                <p><a href="#">Poker Hand Rankings</a></p>
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class="card">
+
+                        <img src="images/card2.jpg" alt="cards bg image">
+                        <div class="card-overlayer">
+                            <div class="overlayer-text">
+                                <h3>Position & Playing Style</h3>
+                                <p><a href="#">Table Position</a></p>
+                                <p><a href="#">Tight Aggressive Style</a></p>
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class="card">
+
+                        <img src="images/card3.jpg" alt="cards bg image">
+                        <div class="card-overlayer">
+                            <div class="overlayer-text">
+                                <h3>Before the Flop</h3>
+                                <p><a href="#">Poker Starting Hands</a></p>
+                                <p><a href="#">Entering the Pot</a></p>
+                            </div>
+                        </div>
+
+                    </section>
+                    <section class="card">
+
+                        <img src="images/card4.jpg" alt="cards bg image">
+                        <div class="card-overlayer">
+                            <div class="overlayer-text">
+                                <h3>After the Flop</h3>
+                                <p><a href="#">How to Evaluate a Poker Hand Post-Flop</a></p>
+                                <p><a href="#">Reading Flops</a></p>
+                                <p><a href="#">Post-Flop Play</a></p>
+                            </div>
+                        </div>
+                        
+                    </section>
+                    <section class="card">
+
+                        <img src="images/card5.jpg" alt="cards bg image">
+                        <div class="card-overlayer">
+                            <div class="overlayer-text">
+                                <h3>Betting</h3>
+                                <p><a href="#">Purposes of Betting in Poker</a></p>
+                                <p><a href="#">Bet Sizing</a></p>
+                                <p><a href="#">Calculating Outs</a></p>
+                            </div>
+                        </div>
+
+                    </section>
+                </section>
+                <!-- end cards -->
+            </section>
+            <!-- end rules -->
+
+            <!-- contact -->
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Phone: ### ### ###</p>
+                <p>email: example@domain.com</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.8325578410527!2d21.011384916148387!3d52.210090279756734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471eccdc8873cc4d%3A0xe5a891bbaff71b66!2sWi%C5%9Bniowa%2056%2C%2002-520%20Warszawa%2C%20Polska!5e0!3m2!1spl!2sus!4v1579963624360!5m2!1spl!2sus" frameborder="0" allowfullscreen=""></iframe>
+            </section>
+        </main>
+
+        <footer>
+            <h4>Bibliography</h4>
+            <p><a href="https://www.pokerstarsschool.com/courses/the-basics/">pokerstarsschool.com</a></p>
+        </footer>
+    </div>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('nav');
+        const header = document.querySelector('.main-h');
+
+        const handleClick = () => {
+            hamburger.classList.toggle('hamburger--active');
+            nav.classList.toggle('navigation--active');
+            header.classList.toggle('h--hidden');
+        }
+
+        hamburger.addEventListener('click', handleClick);
+    </script>
+  </body>
+</html>
