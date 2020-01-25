@@ -82,6 +82,7 @@ header a {
 }
 
 .main-h {
+    font-size: 2em;
     letter-spacing: 0.2em;
     cursor: pointer;
 }
@@ -412,5 +413,12 @@ footer a:hover {
 
     .h--hidden {
         opacity: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .main-h {
+        font-size: 1.6em;
+        letter-spacing: 0.1em;
     }
 }
