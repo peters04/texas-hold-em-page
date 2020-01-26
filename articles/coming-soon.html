@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Site about best sport in the world Texas Hold'em"
+    />
+    <title>Poker</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700i|Montserrat:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="articles.css">
+
+  </head>
+  <body>
+      <!-- wrapper -->
+    <div id="wrapper">
+        <!-- headaer -->
+        <header class="main-header">
+            <div class="header-container">
+                <h1 class="main-h"><a href="index.html">Texas Hold'em</a></h1>
+                
+                <!-- navbar -->
+                <button class="hamburger">
+                    <span class="hamburger__box">
+                        <span class="hamburger__inner"></span>
+                    </span>
+                </button>
+                <nav clas="nav--active">
+                    <ol>
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="../../index.html#contact">Contact</a></li>
+                        <li><a href="../../index.html#about">About</a></li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="image-text">
+                <h1>Comming soon</h1>
+                <a href="#comming-soon" class="btn">Read More</a>
+            </div>
+        </header>
+
+        <main>
+            <section id="comming-soon">
+                <h2>Coming soon</h2>
+
+                <a href="https://www.pokerstarsschool.com/courses/the-basics/" class="btn">Visit pokerstarsschool(I borrow content from there)</a>
+                <a href="../../index.html#rules" class="btn">Back to selection list</a>
+            </section>
+        </main>
+
+        <footer>
+            <h4>Bibliography</h4>
+            <p><a href="https://www.pokerstarsschool.com/courses/the-basics/">pokerstarsschool.com</a></p>
+        </footer>
+    </div>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('nav');
+        const header = document.querySelector('.main-h');
+
+        const handleClick = () => {
+            hamburger.classList.toggle('hamburger--active');
+            nav.classList.toggle('navigation--active');
+            header.classList.toggle('h--hidden');
+        }
+
+        hamburger.addEventListener('click', handleClick);
+    </script>
+  </body>
+</html>

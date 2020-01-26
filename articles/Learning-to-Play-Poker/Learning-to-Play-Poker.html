@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Site about best sport in the world Texas Hold'em"
+    />
+    <title>Poker</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700i|Montserrat:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../index.css">
+    <link rel="stylesheet" href="../articles.css">
+
+  </head>
+  <body>
+      <!-- wrapper -->
+    <div id="wrapper">
+        <!-- headaer -->
+        <header class="main-header">
+            <div class="header-container">
+                <h1 class="main-h"><a href="index.html">Texas Hold'em</a></h1>
+                
+                <!-- navbar -->
+                <button class="hamburger">
+                    <span class="hamburger__box">
+                        <span class="hamburger__inner"></span>
+                    </span>
+                </button>
+                <nav clas="nav--active">
+                    <ol>
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="../../index.html#contact">Contact</a></li>
+                        <li><a href="../../index.html#about">About</a></li>
+                    </ol>
+                </nav>
+            </div>
+
+            <div class="image-text">
+                <h1>Learning to Play Poker</h1>
+                <a href="#first-section" class="btn">Read More</a>
+            </div>
+        </header>
+
+        <main>
+            <article>
+                <section id="first-section">
+                    <h2>THE POKER BASICS COURSE</h2>
+                    <p>The Poker Basics Course is the first step for new players and it’s a great way to learn poker. It
+                        will guide you through everything you need to know as a beginner, starting with some simple poker
+                        definitions and the rules of the game. It takes you through some key concepts of play, and then
+                        gradually examines some examples of how to apply the knowledge you’re learning in real poker
+                        situations.
+    
+                        It might seem like a lot – at least at the beginning – but there are plenty of opportunities to get
+                        involved and give you confidence for when you first take a seat at the table. You will find our
+                        unique hand replayer embedded in some articles, which freeze the action at key stages in poker hands
+                        and allow you to make a decision, giving guidance towards the correct play.
+    
+                        The course is divided into chapters, comprising of several linked lessons. Although most of the
+                        course is designed to be read and understood in chronological order, there are some times you may
+                        want to go back to refresh your memory of previous lessons.
+    
+                        All of what you learn in the Poker Basics course is crucial, regardless of what order you read it.
+                        If things don’t seem to be going so well, you should go back and review.
+    
+                        The Poker Basics course is the foundation on which your poker game will be built, so make sure those
+                        foundations are rock solid.</p>
+
+                        <a href="../../index.html#rules" class="btn">Back to selection list</a>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <h4>Bibliography</h4>
+            <p><a href="https://www.pokerstarsschool.com/courses/the-basics/">pokerstarsschool.com</a></p>
+        </footer>
+    </div>
+
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const nav = document.querySelector('nav');
+        const header = document.querySelector('.main-h');
+
+        const handleClick = () => {
+            hamburger.classList.toggle('hamburger--active');
+            nav.classList.toggle('navigation--active');
+            header.classList.toggle('h--hidden');
+        }
+
+        hamburger.addEventListener('click', handleClick);
+    </script>
+  </body>
+</html>

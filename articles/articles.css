@@ -1,0 +1,71 @@
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 150px;
+}
+
+section h2 {
+    text-align: start;
+    font-size: 2em;
+    margin-bottom: 70px;
+}
+
+section p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin: 0;
+    margin-bottom: 100px;
+}
+
+.center-image {
+    display: flex;
+    justify-content: center;
+}
+
+section img {
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+section ul {
+    font-size: 1.1em;
+}
+
+section li {
+    margin-top: 10px;
+}
+
+.example {
+    font-size: 1.1em;
+}
+
+.example li {
+    margin-top: 4px;
+}
+
+section ol {
+    font-size: 1.1em;
+}
+
+ol > li {
+    margin-top: 10px;
+}
+
+.hand {
+    width: 300px;
+}
+
+#comming-soon {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#comming-soon a{
+    margin-top: 30px;
+}
