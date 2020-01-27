@@ -334,6 +334,10 @@ footer a:hover {
         transition: transform .3s .1s ease-in-out;
     }
 
+    .main-h {
+        margin-right: 1em;
+    }
+
     .hamburger--active {
         transform: translatex(250px);
     }
