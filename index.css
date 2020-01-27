@@ -36,6 +36,7 @@ h4 {
     background-color: var(--dark);
     color: var(--white);
     font-weight: 500;
+    position: sticky;
 }
 
 .main-header {
